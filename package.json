@@ -7,8 +7,12 @@
 		"typescript": "^5.4.3"
 	},
 	"dependencies": {
+		"@types/jsonwebtoken": "^9.0.6",
+		"body-parser": "^1.20.2",
+		"cors": "^2.8.5",
 		"dotenv": "^16.4.5",
-		"express": "^4.19.2"
+		"express": "^4.19.2",
+		"jsonwebtoken": "^9.0.2"
 	},
 	"name": "plutarch",
 	"version": "1.0.0",
@@ -19,7 +23,6 @@
 		"start": "node dist/index.js",
 		"dev": "nodemon src/index.ts"
 	},
-
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/hawk0120/plutarch.git"
